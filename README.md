@@ -7,9 +7,9 @@ Back for round 2, litkit aims to be the RGB LED pico board for your next project
 
 Features built in Micro USB interface for programming with Arduino IDE, powered by an Attiny85, an WS2812B addressable RGB LED, and on board button for cycling LED modes.
 
-##Getting Started
+## Getting Started
 
-###Prerequisites
+### Prerequisites
 
 Requied:
 
@@ -26,11 +26,11 @@ Recommended:
 
 - FastLED Library(can be installed through Arduino IDE)
 
-###Flashing Bootloader (Skip if purchased preassembled unit)
+### Flashing Bootloader (Skip if purchased preassembled unit)
 
 *Coming soon*
 
-###Software Setup
+### Software Setup
 
 - Install Arduino IDE and digispark drivers
 - Open Arduino IDE
@@ -41,17 +41,17 @@ Recommended:
 - Select option Tools -> Board -> Digistump AVR Boards -> Digispark (Default 16.5MHz)
 - Select option Tools -> Programmer -> Micronucleus
 
-###Uploading Program to Litkit
+### Uploading Program to Litkit
 
 Compile your code for the RGB LED. Once ready to upload the program to the board, select upload *WITH LITKIT UNPLUGGED!* A message will appear in the console instructing you to plug in the board within 60 seconds. Plug Litkit in and it will automatically start uploading your program. Once it's done, Litkit will reboot and display your RGB LED program
 
 **NOTE:** If your computer says "Unrecognized USB device" after flashing or after allowing your litkit to be plugged in after 10 seconds, this is normal. It is the micro controller exiting USB flashing mode and running the program. To reprogram, unplug litkit and follow the flashing instructions again.
 
-##Built with
+## Built with
 
 - Eagle
 
-##Versions
+## Versions
 
 - v2.0 initial hardware release
 
